@@ -1,0 +1,85 @@
+
+@media all and (max-width: 1300px) {
+    .main-menu ul li a{
+        margin-top: 5px;
+    }
+}
+@media all and (max-width: 767px){
+    .menu-bar{
+        display: block;
+    }
+    .main-menu {
+        margin: 0 auto;
+    }
+
+    .main-menu{
+
+    }
+
+    .main-menu ul{
+        float: none;
+        display: none;
+    }
+    .main-menu ul li{
+        float: none;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .main-menu ul li a{
+        color: #fff;
+        float: none;
+        font-size: 15px;
+        padding: 20px 32px;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #000;
+        text-transform: uppercase;
+        font-family: 'Doppio One', sans-serif;
+        border-left: 0px groove #636363;
+    }
+}
+@media all and (max-width: 991px) {
+
+    .login {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .login {
+
+    }
+
+    .login ul {
+        float: none;
+        margin-left: 65px;
+        margin-top: 14px;
+    }
+
+    .login ul li {
+        float: none;
+        display: block;
+    }
+
+    .login ul li a {
+        text-align: center;
+        padding: 10px;
+    }
+}
+@media all and (max-width: 767px) {
+
+    .login {
+        margin-top: 10px;
+        display: block;
+    }
+    .login ul {
+        float: none;
+        text-align: center;
+        margin-top: -16px;
+    }
+    .search form{
+        padding-top: 0px;
+    }
+    .shopping_cart {
+        margin-top: -15px;
+    }
+
+}

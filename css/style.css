@@ -1,0 +1,455 @@
+
+/*********************************************************/
+/****************         body         *******************/
+/*********************************************************/
+body{
+    margin: 0;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+/*********************************************************/
+/****************         header          *******************/
+/*********************************************************/
+.header-area{
+    background-color: #fff;
+}
+.logo h2{
+    display: block;
+    font-family: "Arial Rounded MT Bold";
+    margin-top: 10px;
+    color: white;
+}
+.logo p{
+     display: block;
+     font-family: "Arial Rounded MT Bold";
+     color: #9fcdff;
+ }
+.logo p a{
+    color: #9fcdff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.search form{
+    padding-top: 22px;
+}
+
+.shopping_cart{
+
+}
+.cart{
+    height: 48px;
+    padding: 0 0 0 10px;
+    background: #fff;
+    border: 1px solid #CECECE;
+    border-left: none;
+    line-height: 41px;
+    -webkit-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 242px;
+    margin-top: 17px;
+}
+.cart img{
+    width: 52px;
+    height: 48px;
+    margin-left: -12px;
+    margin-top: -1px;
+}
+.shopping_cart .cart .opencart {
+    width: 7px;
+    height: 5px;
+    display: block;
+    background: url(../images/header_arrow.png) 0 0 no-repeat;
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+.shopping_cart span.cart_title{
+    font-size:13px;
+    font-weight:bold;
+    color: #4F4F4F;
+}
+.shopping_cart span.no_product{
+    font-size:13px;
+    font-weight:bold;
+    color: #DD0F0E;
+}
+.login ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.login ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+.login ul li a{
+    display: block;
+    margin: 0;
+    padding: 25px 1px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+/*********************************************************/
+/****************         main-menu         *******************/
+/*********************************************************/
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+.main-menu ul li a{
+    color: #fff;
+    float: left;
+    font-size: 15px;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+    font-family: 'Doppio One', sans-serif;
+    border-left: 2px groove #636363;
+}
+.main-menu ul li .active{
+    background-color: #75c387;
+    color: white;
+
+}
+.main-menu ul li a:hover{
+    text-decoration: none;
+    background-color: #67C255;
+    color: white;
+}
+.menu-bar{
+    display: none;
+    text-align: center;
+}
+/*********************************************************/
+/****************         Brand         *******************/
+/*********************************************************/
+.brand-list li:hover{
+    margin-left: 15px;
+}
+.category-list li:hover{
+    margin-left: 15px;
+}
+.brand{
+    border: 1px solid gray;
+    padding: 10px;
+    display: block;
+    margin-top: 5px;
+    box-shadow: 1px 3px 4px gray;
+    border-radius: 5px;
+}
+.brand-img{
+    width: 115px;
+    float: left;
+}
+.brand-img img{
+    width: 115px;
+    float: left;
+    padding: 8px;
+    height: 107px;
+}
+.brand-details{
+    padding: 5px;
+}
+.brand-details h3{
+    font-size: 20px;
+    text-align: left;
+}
+.brand-details p{
+    font-size: 13px;
+    text-align: left;
+}
+.brand-details form {
+    font-size: 10px;
+    text-align: left;
+}
+/*********************************************************/
+/****************        slider & category        *******************/
+/*********************************************************/
+.slider{
+    margin-top: 5px;
+}
+.category{
+    padding: 8px;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 4px gray;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.category h2{
+    font-size: 23px;
+    padding: 5px;
+}
+/*********************************************************/
+/****************         product head       *******************/
+/*********************************************************/
+.pro-head{
+    padding: 8px;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 4px gray;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.pro-head h2{
+    font-size: 23px;
+    padding: 5px;
+}
+
+/*********************************************************/
+/****************       product      *******************/
+/*********************************************************/
+
+.product {
+    margin-top: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 1px 1px 6px gray;
+    border-radius: 5px;
+    float: left;
+}
+.product .pro-img img{
+    width: 160px;
+    height: 170px;
+    transform: scale(1);
+    transition: 1s;
+}
+.product .pro-img img:hover{
+    transform: scale(1.8);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.pro-details h4{
+    font-size: 18px;
+    color: red;
+}
+.pro-details p{
+    margin-top: 10px;
+}
+.pro-details form{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/*********************************************************/
+/****************       footer      *******************/
+/*********************************************************/
+.footer{
+    margin-top: 10px;
+}
+.map iframe{
+    width: 100%;
+}
+.account{
+    border-right: 1px solid white;
+    color: white;
+}
+.google-map,.contact{
+    color: white;
+}
+.google-map,.account,.contact h5{
+    margin-top: 10px;
+}
+.account,.contact, ul li{
+    list-style: none;
+}
+.account ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.contact h6{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.inside-footer p{
+    color: white;
+    font-size: 17px;
+    padding: 8px;
+}
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/arrow_up.png) no-repeat right top;
+}
+#toTopHover {
+    width: 48px;
+    height: 48px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+/*********************************************************/
+/****************       404 page      *******************/
+/*********************************************************/
+.empty_page p{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -40px;
+}
+.empty_page h1{
+    font-size: 150px;
+    font-family: "Arial Rounded MT Bold";
+    color: red;
+    padding: 25px;
+}
+/*********************************************************/
+/****************       contact page      *******************/
+/*********************************************************/
+.admin-contact .contact-header h2{
+    font-size: 27px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+.admin-contact .admin-form form{
+    margin-top: 15px;
+}
+.admin-contact form label{
+    font-size: 18px;
+}
+.contact-submit {
+    width:25%;
+}
+.admin-contact form input[type=text],textarea{
+    box-shadow: 1px 1px 4px gray;
+}
+/*********************************************************/
+/****************       login page      *******************/
+/*********************************************************/
+.cust-login .login-header h2{
+    font-size: 27px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+
+}
+.cust-login form{
+    margin-top: 15px;
+}
+.cust-login form label{
+    font-size: 18px;
+}
+.cust-login form input,textarea{
+    box-shadow: 1px 1px 4px gray;
+}
+.forget span{
+    padding: 15px;
+    font-size: 18px;
+}
+.forget a{
+    text-decoration: none;
+}
+.forget h5{
+    margin-top: 20px;
+}
+/*********************************************************/
+/****************       register page      *******************/
+/*********************************************************/
+.register-header h2{
+    font-size: 27px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.cust-register form{
+    margin-top: 15px;
+}
+.cust-register form label{
+    font-size: 18px;
+}
+.cust-register form input,textarea{
+    box-shadow: 1px 1px 4px gray;
+}
+.register-btn{
+    width: 40%;
+}
+/*********************************************************/
+/****************       cart page      *******************/
+/*********************************************************/
+.panel-default h3{
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.qnty{
+    width: 70px;
+}
+/*********************************************************/
+/****************       Product_details page      *******************/
+/*********************************************************/
+.category-list ul li{
+    font-size: 15px;
+    padding: 8px;
+}
+.brand-list ul li{
+    font-size: 15px;
+    padding: 8px;
+}
+.details .main-details{
+    margin-top: 30px;
+}
+.details .main-view{
+    margin-top: 50px;
+}
+.details .main-details form{
+    margin-top: 20px;
+}
+.details .main-details ul li h4{
+    margin-top: 10px;
+}
+
+.details-header h5{
+    padding: 8px;
+    box-shadow: 3px 1px 5px gray;
+    border: 1px solid gray;
+}
+.details-header p{
+   margin-top: 20px;
+    font-size: 16px;
+}
+.services ul li a:hover{
+    margin-left: 15px;
+    text-decoration: none;
+}
+.service-pro img{
+    transform: rotate(0deg);
+}
+.service-pro img:hover{
+    transform: rotate(180deg);
+}

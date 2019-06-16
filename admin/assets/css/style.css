@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.login .main-login{
+    margin-top: 100px;
+}
+.login .main-login h3{
+    padding: 8px;
+    font-size: 25px;
+    display: block;
+
+}
+.login .main-login form a{
+    text-decoration: none;
+    text-align: center;
+}
+.login .main-login form a h5{
+    margin-top: 10px;
+}
+.login .main-login form{
+    padding: 10px;
+   display: block;
+}
+.login .main-login form label{
+    font-size: 18px;
+
+}
